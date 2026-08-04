@@ -3,4 +3,4 @@ project(Cell)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(Cell)
+#add_executable(Cell)
