@@ -63,6 +63,7 @@ There is also documentation there, with which you can add your own icons or chan
 
 [![LLVM][llvm-badge]][llvm-url]
 [![C++][cpp-badge]][cpp-url]
+[![CMake][cmake-badge]][cmake-url]
 
 <!-- INSTALLATION -->
 ## Installation
@@ -208,3 +209,5 @@ Com Group - [Com-Group](https://github.com/Com-Group)
 [llvm-url]: https://llvm.org/
 [cpp-badge]: https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white
 [cpp-url]: https://isocpp.org/
+[cmake-badge]: https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white
+[cmake-url]: https://cmake.org/
