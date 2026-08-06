@@ -5,4 +5,8 @@ project(Cell)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(CellCompiler
-        Main.cpp)
+        Main.cpp
+        AbstractStream.h
+        String.h
+        String.cpp
+)
