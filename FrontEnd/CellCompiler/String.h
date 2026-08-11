@@ -13,23 +13,27 @@ public:
 	String& operator=(String const &TheString);
 	String& operator=(String &&TheString) noexcept;
 
-	String operator+(String const &TheString);
-	String operator+(char const *TheString);
+	~String();
+
+	String operator+(char const *TheString) const;
+	String operator+(String const &TheString) const;
 
 	String& operator+=(String const &TheString);
 	String& operator+=(char const *TheString);
 
-	int32_t Length() const noexcept;
-	int32_t Rest() const noexcept;
+	bool operator==(char const *TheString) const noexcept;
+	bool operator==(String const &TheString) const noexcept;
+
+	size_t Length() const noexcept;
+	size_t Rest() const noexcept;
+	size_t Capacity() const noexcept;
+
 	bool WhetherShort() const noexcept;
 	bool WhetherLong() const noexcept;
 
-	bool operator==(String const &TheString) const noexcept;
-	bool operator==(char const *TheString) const noexcept;
-
-	bool Resize();
-
-	~String();
+	void Clear();
+	void PreAllocate(size_t NewSize);
+	void ReSize(size_t NewSize);
 
 private:
 	struct ShortStringView
@@ -37,6 +41,7 @@ private:
 		uint8_t Length;
 		char TheString[15];
 	};
+
 	struct LongStringView
 	{
 		int32_t Rest;

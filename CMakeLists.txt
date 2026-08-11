@@ -46,12 +46,15 @@ set(BASE_COMPILER_DIR "${CMAKE_CURRENT_SOURCE_DIR}/LLVM")
 #
 #message(STATUS "正在使用编译器: ${CMAKE_C_COMPILER}")
 
-project(Cell)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+
+project(Cell LANGUAGES CXX)
 
 #set(CMAKE_LINKER "${CLANG_BIN_DIR}/lld${EXE_SUFFIX}")
 #set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fuse-ld=lld")
 
 set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(FrontEnd)
 add_subdirectory(BackEnd)
