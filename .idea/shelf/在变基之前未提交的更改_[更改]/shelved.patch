@@ -1,0 +1,16 @@
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+new file mode 100644
+--- /dev/null	(date 1785852610589)
++++ b/CMakeLists.txt	(date 1785852610589)
+@@ -0,0 +1,6 @@
++cmake_minimum_required(VERSION 4.3)
++project(Cell)
++
++set(CMAKE_CXX_STANDARD 26)
++
++add_executable(Cell)
