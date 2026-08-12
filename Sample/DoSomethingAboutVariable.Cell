@@ -1,0 +1,41 @@
+Entrance Main()
+{
+	Variable1:byte8;//Wait
+	Variable1=0x01;
+	Variable1=0b00001101;
+	/~Wrong thing:~
+	 ~Variable1+=1;~
+	 ~Variable:=Variable1+1;~
+	Variable2:integer=0;//Without another expression to help, 0 can be speculated as a lot of type so must write clear
+	 ~Variable1+=Variable2;~
+	Variable2<<=2;
+	Variable1>>=1;
+	Variable2+=DirectCast<integer>(Variable1);
+	Variable3:unit=0x02;
+	Variable4:short=unit.Size();//1
+	Variable5:integer[BaseAtom.Derived().Amount()]={For(Size:,Types:Class-<TraversalIterator=BaseAtom.Derived().TraversalIterator<->Size<LogicCast<>()-.Size()-Types)};
+	//byte8 1
+	//byte16 2
+	//byte32 4
+	//byte64 8
+	//byte128 16
+	//unit 1
+	//short 2
+	//integer 4
+	//long 8
+	//large 16
+	//unit unsigned 1
+	//short unsigned 2
+	//integer unsigned 4
+	//long unsigned 8
+	//large unsigned 16
+	//float 2
+	//double 4
+	//big 8
+	//huge 16
+	//char 1
+	Variable6:integer[20]&=&Variable5;
+	Variable7:integer&[1]={&Variable2};
+	Variable8:integer&[1]&=&Variable7;
+	 ~Variable9:integer[1]&=&Variable6;~/
+};
