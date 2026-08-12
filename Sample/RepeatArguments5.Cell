@@ -1,0 +1,18 @@
+import Utility.String
+import InputAndOutput.Console
+
+Entrance Main()
+{
+	Program.Console<<Red<<"No Arguments!"<<End;
+	Return 1;
+};
+
+Entrance Main(Arguments:String[])
+{
+	Program.Console<<"There are "<<Count<<"Arguments"<<End;
+	For(TheIterator:=Arguments.TraversalIterator(),Index:,Argument:<->[Index,Arguments]<-TheIterator)
+	{
+		Program.Console<<"The "<<Index.ToIndex()<<" Argument is "<<Arguments<<"."<<End;
+	};
+	Return 0;
+};

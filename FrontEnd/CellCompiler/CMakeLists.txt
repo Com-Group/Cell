@@ -7,7 +7,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
 
 add_executable(CellCompiler
         Main.cpp
-        AbstractStream.h
-        String.h
-        String.cpp
 )

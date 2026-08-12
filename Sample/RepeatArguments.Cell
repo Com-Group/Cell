@@ -1,0 +1,17 @@
+import InputAndOutput.Console
+
+Entrance Main()
+{
+	Program.Console<<Red<<"No Arguments!"<<End;
+	Return 1;
+};
+
+Entrance Main(Count:integer,Arguments:char*[])
+{
+	Program.Console<<"There are "<<Count<<"Arguments"<<End;
+	For(Index:=0;Index<Count;Index++)//Index is speculated as integer because "Index<Count" has no cast
+	{
+		Program.Console<<"The "<<Index<<" Argument is "<<Arguments[Index]<<"."<<End;
+	};
+	Return 0;
+};

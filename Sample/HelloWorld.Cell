@@ -1,0 +1,7 @@
+import InputAndOutput.Console
+
+Entrance Main()
+{
+	Program.Console<<"Hello World!"<<End;
+	Return 0;
+};
