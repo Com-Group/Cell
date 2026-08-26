@@ -6,11 +6,11 @@ Welcome to the **Cell** repository! This project is designed to create a nearly 
   <!-- <img src="https://via.placeholder.com/150" alt="Project Logo" width="150" height="150"> -->
 
   <h3>C Elements Lives' Loop</h3>
-  <!-- <a href="https://github.com/Com-Group/Cell"><strong>Explore the docs »</strong></a> -->
+  <!-- <a href="https://github.com/CSA-Organization/Cell"><strong>Explore the docs »</strong></a> -->
   <br /><br />
-  <a href="https://github.com/Com-Group/Cell/issues/new?assignees=Com-Group&labels=bug&projects=&template=1-bug.yml&title=%5BBug%5D%3A+">Report Bug</a>
+  <a href="https://github.com/CSA-Organization/Cell/issues/new?assignees=CSA-Organization&labels=bug&projects=&template=1-bug.yml&title=%5BBug%5D%3A+">Report Bug</a>
   ·
-  <a href="https://github.com/Com-Group/Cell/issues/new?assignees=Com-Group&labels=enhancement&template=2-feature-request.yml&title=%5BFeature%5D%3A+">Request Feature</a>
+  <a href="https://github.com/CSA-Organization/Cell/issues/new?assignees=CSA-Organization&labels=enhancement&template=2-feature-request.yml&title=%5BFeature%5D%3A+">Request Feature</a>
   ·
   <a href="#contact">Contact</a>
 </div>
@@ -72,7 +72,7 @@ In fact, to install this repository you don't need to install any dependencies o
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Com-Group/Cell.git
+   git clone https://github.com/CSA-Organization/Cell.git
    ```
 2. **Install dependencies:**
    ```sh
@@ -149,8 +149,8 @@ For more detailed contributing guidelines, visit our [CONTRIBUTING.md](CONTRIBUT
 -->
 ### Top contributors
 
-<a href="https://github.com/Com-Group/Cell/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Com-Group/Cell" alt="contrib.rocks image" />
+<a href="https://github.com/CSA-Organization/Cell/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CSA-Organization/Cell" alt="contrib.rocks image" />
 </a>
 
 <p align="right">
@@ -160,7 +160,7 @@ For more detailed contributing guidelines, visit our [CONTRIBUTING.md](CONTRIBUT
 ## License
 
 <!-- LICENSE -->
-Copyright 2026 Com Group
+Copyright 2026 CSA Organization
 Licensed under the Apache License, Version 2.0
 See [LICENSE](LICENSE) for more information.
 
@@ -184,7 +184,7 @@ This section is dedicated to recognizing the resources and individuals that have
 
 ## Contact
 
-Com Group - [Com-Group](https://github.com/Com-Group)
+CSA Organization - [CSA Organization](https://github.com/CSA-Organization)
 
 <p align="right">
   (<a href="#top">Back to top</a>)
@@ -193,16 +193,16 @@ Com Group - [Com-Group](https://github.com/Com-Group)
 <!-- MARKDOWN VARIABLES (LINKS, IMAGES) -->
 <!-- Documentation: https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- Badges documentation: https://shields.io/badges -->
-[contributors-badge]: https://img.shields.io/github/contributors/Com-Group/Cell.svg?style=for-the-badge
-[contributors-url]: https://github.com/Com-Group/Cell/graphs/contributors
-[forks-badge]: https://img.shields.io/github/forks/Com-Group/Cell.svg?style=for-the-badge
-[forks-url]: https://github.com/Com-Group/Cell/network/members
-[stars-badge]: https://img.shields.io/github/stars/Com-Group/Cell.svg?style=for-the-badge
-[stars-url]: https://github.com/Com-Group/Cell/stargazers
-[issues-badge]: https://img.shields.io/github/issues/Com-Group/Cell.svg?style=for-the-badge
-[issues-url]: https://github.com/Com-Group/Cell/issues
-[license-badge]: https://img.shields.io/github/license/Com-Group/Cell.svg?style=for-the-badge
-[license-url]: https://github.com/Com-Group/Cell/blob/Majority/LICENSE
+[contributors-badge]: https://img.shields.io/github/contributors/CSA-Organization/Cell.svg?style=for-the-badge
+[contributors-url]: https://github.com/CSA-Organization/Cell/graphs/contributors
+[forks-badge]: https://img.shields.io/github/forks/CSA-Organization/Cell.svg?style=for-the-badge
+[forks-url]: https://github.com/CSA-Organization/Cell/network/members
+[stars-badge]: https://img.shields.io/github/stars/CSA-Organization/Cell.svg?style=for-the-badge
+[stars-url]: https://github.com/CSA-Organization/Cell/stargazers
+[issues-badge]: https://img.shields.io/github/issues/CSA-Organization/Cell.svg?style=for-the-badge
+[issues-url]: https://github.com/CSA-Organization/Cell/issues
+[license-badge]: https://img.shields.io/github/license/CSA-Organization/Cell.svg?style=for-the-badge
+[license-url]: https://github.com/CSA-Organization/Cell/blob/Majority/LICENSE
 
 <!-- Other ready-made icons can be seen for example here: https://github.com/inttter/md-badges -->
 [llvm-badge]: https://img.shields.io/badge/LLVM-%23141414.svg?logo=llvm&logoColor=white
